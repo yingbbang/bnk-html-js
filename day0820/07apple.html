@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 04apple.html </title>
+    <style>
+
+        .wrap{
+            margin: 0 auto;
+            width: 650px;
+            border: solid 2px blue;
+        }
+
+        img{
+            width: 650px;
+            height: 400px;
+        }
+
+
+        /* 클래스 이름이 container 인 요소에 스타일을 적용합니다.
+        예: <div class="container"내용</div> */
+        .container{
+            /* 너비 : 650 픽셀 
+            요소의 가로 크기를 650 픽셀로 고정합니다. */
+            width: 650px;
+
+            /* 텍스트를 가운데 정렬
+            요소 안에 있는 텍스트(및 인라인 요소)를 가운데 정렬합니다. */
+            text-align: center;
+
+            /* 테두리 : 빨간색, 실선, 두께 1px 
+            요소에 빨간색 실선 테두리를 두께 1px로 적용합니다. */
+            border : solid 1px red;
+        }
+
+        h1{
+            /* 배경색 : 검정 */
+            background-color: black;
+
+            /* 글자색: 노란색 */
+            color:yellow;
+
+            /* 글자 크기: 16픽셀 */
+            font-size: 16px;
+
+            /* 내부 여백: 7픽셀 */
+            padding: 7px;
+
+            /* 텍스트 정렬: 왼쪽 */
+            text-align: left;
+        }
+
+        a{
+            /* 글자색 : 검은색 */
+            color:black; 
+
+            /* 밑줄 제거 */
+            text-decoration:  none;
+        }
+
+        a:hover{
+            /* 글자색 : 브라운 */
+            color:brown; 
+
+            /* 밑줄 제거 */
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+    <!--
+    첫번째 div, 확인사항h1, a태그 주문및배송
+    p태그 본문 내용 오후 2시 이전 ~~~ 발송합니다. (주말 제외)
+    hr 태그 가로선
+    table 태그는 비권장
+    -->
+     <!--
+    확인사항
+    주문 및 배송
+    오후 2시 이전 주문 건은 당일발송합니다. 
+    2시 이후 주문건은 다음날 발송합니다.(주말 제외)
+
+    교환 및 환불
+    불만 즉시 100% 환불해드립니다. 고객센터로 전화주세요.
+    
+    고객센터
+    1588-1200 
+    상담시간 : 오전9시 ~ 오후 6시(토/일, 공휴일 휴무)
+
+    -->
+    <table>
+    
+    
+    <div calss="wrap">
+        <img src="https://assets.clevelandclinic.org/transform/LargeFeatureImage/cd71f4bd-81d4-45d8-a450-74df78e4477a/Apples-184940975-770x533-1_jpg">
+        <div class="container">
+            <h1>확인사항</h1>
+            <a href="#"> <h2>주문 및 배송 </h2></a>
+            <p>
+                오후 2시 이전 주문 건은 당일 발송합니다. <br>
+                2시 이후 주문건은 다음날 발송합니다 (주말 제외)
+            </p>
+            <hr>
+            
+            <a href="#"> <h2> 교환 및 환불</h2></a>
+            <p>
+                불만족시 100% 환불해 드립니다. <br>
+                고객센터로 전화주세요
+            </p>
+             <hr>
+             
+            <a href="#"> <h2> 고객센터</h2></a>
+            <p>
+                1588-1200 <br>
+                상담시간 : 오전9시 ~ 오후 6시(토/일, 공휴일 휴무)
+            </p>
+
+        </div>
+    </div>
+    </table>
+</body>
+</html>
